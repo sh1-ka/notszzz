@@ -1,0 +1,6 @@
+services:
+  notbot:
+    build:
+      context: .
+    env_file:
+      .env
